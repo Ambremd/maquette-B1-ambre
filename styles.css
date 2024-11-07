@@ -1,0 +1,315 @@
+/* police de caractère*/
+
+@font-face{
+	font-family: "RobotoB";
+	src: url("./fonts/Roboto-Bold.ttf") format("truetype");
+}
+@font-face{
+	font-family: "RobotoL";
+	src: url("./fonts/Roboto-Light.ttf") format("truetype");
+}
+@font-face{
+	font-family: "RobotoR";
+	src: url("./fonts/Roboto-Regular.ttf") format("truetype");
+	/* otf=opentype, ttf=truetype, woof=woof, woof2= woof2*/
+}
+@font-face{
+
+}
+
+/* element pour toute la maquette*/
+body{
+	margin: 0;
+	color: #fff;
+	background-color: #000;
+}
+
+
+/* HEADER */
+
+
+.header{
+	background-image: url("./image/debut1.jpg");
+	height: 720px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 35px;
+	background-position: bottom;
+
+}
+
+
+/* ------ bloc 1 part 1 ------  */
+
+
+.conteter1{
+	height: 98px;
+	text-align: center;
+	width: 1175px;
+	background : linear-gradient(#000A, #0000);
+
+}
+.head{
+	margin: 10px 0px;	
+}
+.gps{
+	height: 40px;
+}
+.loupe{
+	height: 15px;
+}
+.tete{
+	font-family: RobotoR;
+	float: center;
+
+}
+
+.tete ul{
+	list-style-type: none;
+	text-align: center;
+	margin-top: 10px;
+	float: left;
+
+}
+.tete ul>li{
+	padding-left: 40px;
+	float: left;
+	padding: 0px 110px;
+}
+
+
+
+/* ------ bloc 1 part 2 ------ */
+
+
+.contener2{
+	padding: 112px;
+	text-align: center;
+	margin: auto;
+}
+
+h1{
+	font-size: 70px;
+	margin: 100px 0px 10px 0px;
+}
+
+.text{
+	margin: 0px;
+	font-family: "RobotoL";
+}
+
+.video{
+	height: 50px;
+	margin: 90px 0px;
+}
+
+
+/* ------ bloc 2 ------ */
+
+
+.bloc2{
+	background-color: black;
+	height: 700px;
+	width: 100%;
+	text-align: center;
+	padding-top: 0px;
+}
+
+.bloc21{
+	margin: auto;
+	width: 1175px;
+}
+
+/* ------ text ------  */
+
+.h2{
+	font-family: RobotoR;
+}
+
+.p{
+	width: 550px;
+	margin: auto;
+	font-family: RobotoL;
+}
+
+/* ------ image ------  */
+.image{
+	margin: auto;
+	padding: 50px 4px 20px 4px;
+	width: fit-content;
+	float: center;
+}
+.usa{
+	float: left;
+	margin: 8px;
+	padding: 20px;
+	width: 302px;
+	height: 403px;
+}
+.img{
+	float: left;
+	margin: 8px;
+	padding: 20px 0px;
+	width: 302px;
+	height: 403px;
+}
+.nom{
+	position:relative; 
+	height:100px;
+	margin-top: -100px;
+	background : linear-gradient(#0000, #000A);
+}
+.h3{
+	text-align: center;
+	font-size: 25px;
+	margin: 0px;
+}
+
+.pa{
+	text-align: center;
+	font-family: "RobotoL";
+}
+
+/* ------ lien ------  */
+
+.break{
+	clear:both;
+}
+
+.see{
+	color: blue;
+	text-align: center;
+	font-family: RobotoR;
+}
+
+
+/* ------ bloc 3 ------ */
+
+
+.bloc3{
+	background-color: black;
+	height: 620px;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.bloc31{
+	margin: auto;
+	width: 1175px;
+}
+
+/* ------ text ------  */
+
+.h22{
+	font-family: RobotoR;
+}
+
+.pp{
+	width: 530px;
+	margin: auto;
+	font-family: RobotoL;
+}
+
+/* ------ image ------  */
+
+.image2{
+	margin: auto;
+	padding: 50px 4px 20px 4px;
+	width: fit-content;
+	
+}
+.imga{
+	float: left;
+	margin: 0px 18px;
+	padding: 20px 13px;
+	width: 479px;
+	height: 269px;
+}
+.paragraphe{
+	font-family: RobotoL;
+	text-align: center;
+	margin: 25px 0px 5px 0px;
+}
+.h33{
+	margin: 0;
+	font-size: 30px;
+}
+.para{
+	font-family: RobotoL;
+	text-align: center;
+}
+
+
+/* ------ bloc 3, image de fin ------ */
+
+.imagefin{
+	background-image: url("./image/fin1.jpg");
+	height: 450px;
+	background-size: 1500px 700px;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	/*background-position: top;*/
+}
+.all{
+	color: blue;
+	margin: 0px;
+	text-align: center;
+}
+
+
+/* ------ bloc 4,fin ------ */
+
+.fin{
+	background-color: black;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	padding-top: 0px 20px;
+	background-position: top;
+}
+
+.p1{
+	font-family: RobotoR;
+	float: center;
+}
+.p1 ul{
+	list-style-type: none;
+	text-align: center;
+	margin-top: 10px;
+	float: left;
+
+}
+.p1 ul>li{
+	padding-left: 40px;
+	float: left;
+	padding: 0px 2px;
+}
+
+.p2{
+	font-family: RobotoR;
+	float: center;
+}
+.p2 ul{
+	list-style-type: none;
+	text-align: center;
+	margin-top: 10px;
+	float: left;
+	padding-left: 10px;
+
+}
+.p2 ul>li{
+	padding-left: 0px;
+	float: left;
+	padding: 0px 10px;
+}
+
+.il{
+	margin: 0px 0px 0px 310px;
+}
+.sea{
+	margin: 0px 360px 0px 0px;
+}
+
